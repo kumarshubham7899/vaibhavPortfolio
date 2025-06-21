@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import Services from '../../api/service';
-import ServiceSingle from '../ServiceSingle';
+import React, { useState } from "react";
+import Services from "../../api/service";
+import ServiceSingle from "../ServiceSingle";
 
 const ServiceSection = () => {
   const [open, setOpen] = useState(false);
@@ -28,9 +28,14 @@ const ServiceSection = () => {
               <div className="col col-lg-3 col-md-6 col-12" key={srv}>
                 <div className="tp-service-item">
                   <i className={`fi ${service.icon}`}></i>
-                  <h2 onClick={() => handleClickOpen(service)}>{service.sTitle}</h2>
+                  <h2 onClick={() => handleClickOpen(service)}>
+                    {service.sTitle}
+                  </h2>
                   <p>{service.description}</p>
-                  <button className="read-more" onClick={() => handleClickOpen(service)}>
+                  <button
+                    className="read-more"
+                    onClick={() => handleClickOpen(service)}
+                  >
                     <i className="fi flaticon-right-arrow"></i>
                   </button>
                 </div>
@@ -49,6 +54,15 @@ const ServiceSection = () => {
         dImg={state.sImgS}
         sImg1={state.ssImg1}
         sImg2={state.ssImg2}
+        des2={state.des2}
+        subtitle2={state.subtitle2}
+        subtitle2Description={state.subtitle2Description}
+        subtitle2Items={state.subtitle2Items}
+        subtitle3={state.subtitle3}
+        subtitle3Description={state.subtitle3Description}
+        subtitle4={state.subtitle4}
+        subtitle4Items={state.subtitle4Items}
+        description={state.description}
       />
     </div>
   );
