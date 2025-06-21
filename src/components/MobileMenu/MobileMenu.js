@@ -14,21 +14,21 @@ const menus = [
         title: 'About',
         link: 'about',
     },
-    {
-        id: 3,
-        title: 'Service',
-        link: 'service',
-    },
+    // {
+    //     id: 3,
+    //     title: 'Service',
+    //     link: 'service',
+    // },
     {
         id: 4,
         title: 'Portfolio',
         link: 'portfolio',
     },
-    {
-        id: 5,
-        title: 'Blog',
-        link: 'blog',
-    },
+    // {
+    //     id: 5,
+    //     title: 'Blog',
+    //     link: 'blog',
+    // },
     {
         id: 5,
         title: 'Contact',

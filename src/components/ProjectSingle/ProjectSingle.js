@@ -79,13 +79,13 @@ const ProjectSingle = ({ maxWidth, open, onClose, title, pImg, psub1img1, psub1i
                                                 <div className="col-lg-5">
                                                     <div className="tp-project-single-content-des-right">
                                                         <ul>
-                                                            <li>Location :<span>7 Lake Street,London</span></li>
-                                                            <li>Client :<span>wpOceans</span></li>
-                                                            <li>Consult :<span>Harry Johnson</span></li>
-                                                            <li>Project Type :<span>Olulu React</span></li>
-                                                            <li>Duration :<span>6 Month</span></li>
+                                                        
+                                                            <li>Client :<span>Dostcast</span></li>
+                                                            
+                                                            <li>Project Type :<span>Assignment</span></li>
+                                                            <li>Duration :<span>24 Hours</span></li>
                                                             <li>Completion :<span>15 Apr 2023</span></li>
-                                                            <li>Share :<span>Creative, Portfolio</span></li>
+                                                    
                                                         </ul>
                                                     </div>
                                                 </div>

@@ -88,7 +88,8 @@ const ServiceSingle = ({ maxWidth, open, onClose, title, dImg, sImg1, sImg2, }) 
                                         </div>
                                         <div className="tp-service-single-item list-widget">
                                             <div className="tp-service-single-title">
-                                                <h3>Our Capabilities</h3>
+                                                <h3>My Superpower
+                                                </h3>
                                             </div>
                                             <p>Massa volutpat odio facilisis purus sit elementum. Non, sed velit dictum quam. Id
                                                 risus pharetra est, at rhoncus, nec ullamcorper tincidunt. Id aliquet duis
@@ -103,7 +104,7 @@ const ServiceSingle = ({ maxWidth, open, onClose, title, dImg, sImg1, sImg2, }) 
                                         </div>
                                         <div className="tp-service-single-item">
                                             <div className="tp-service-single-title">
-                                                <h3>Our approach</h3>
+                                                <h3>My approach</h3>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat suspendisse aenean
                                                 tellus augue morbi risus. Sit morbi vitae morbi sed urna sed purus. Orci facilisi
@@ -115,7 +116,7 @@ const ServiceSingle = ({ maxWidth, open, onClose, title, dImg, sImg1, sImg2, }) 
                                         </div>
                                         <div className="tp-service-single-item list-widget">
                                             <div className="tp-service-single-title">
-                                                <h3>Our Work Process</h3>
+                                                <h3>My Work Process</h3>
                                             </div>
                                             <ul>
                                                 <li>Non saed velit dictum quam risus pharetra esta.</li>
@@ -135,7 +136,7 @@ const ServiceSingle = ({ maxWidth, open, onClose, title, dImg, sImg1, sImg2, }) 
                                                             <div className="tp-service-item">
                                                                 <i className={`fi ${service.icon}`} ></i>
                                                                 <h2>{service.sTitle}</h2>
-                                                                <p>Lacus, etiam sed est eu tempus need Temer diam congue.</p>
+                                                                <p>Not just dialogue, but a dynamic blueprint for emotion, structure, and deeply impactful storytelling.</p>
                                                             </div>
                                                         </div>
                                                     ))}

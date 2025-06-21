@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
-import himg from '../../images/slider/right-img.png'
+import himg from '../../images/slider/Layer 1.png'
 import { Link } from 'react-scroll'
 
 const Hero =() => {
@@ -11,13 +11,13 @@ const Hero =() => {
                     <div className="col col-xs-7 col-lg-7">
                         <div className="tp-hero-section-text">
                             <div className="tp-hero-title">
-                                <h2>App & Software Developer</h2>
+                                <h2>Full Stack Video Creator</h2>
                             </div>
                             <div className="tp-hero-sub">
-                                <p>Robert Miller</p>
+                                <p>Vaibhav Dhameja</p>
                             </div>
                             <div className="btns">
-                                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} offset={-95} className="theme-btn">Contact Us</Link>
+                                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} offset={-95} className="theme-btn">Contact Me</Link>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ const Hero =() => {
             </div>
             <div className="right-vec">
                 <div className="right-img">
-                    <img src={himg} alt=""/>
+                    <img src={himg} alt=""style={{ filter: 'none' }}/>
                 </div>
             </div>
             <div className="social-link">
@@ -36,7 +36,7 @@ const Hero =() => {
                 </ul>
             </div>
             <div className="visible-text">
-                <h1>Developer</h1>
+                <h1>Video</h1>
             </div>
         </section>
     )

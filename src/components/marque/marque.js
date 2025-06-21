@@ -8,8 +8,8 @@ const Marquee = (props) => {
                     <div className="marquee">
                         <div className="track">
                             <div className="content">
-                                <h1><span>I always try to put my best service to my client</span> <i>.</i> <span>I always try to put
-                                    my best service to my client</span> <i>.</i> <span>I always try to put my best service to my client</span> <i>.</i> <span>I always try to put my best service to my client</span> <i>.</i> <span>I always try to put my best service to my client</span> <i>.</i> 
+                                <h1><span>Every project gets my heart, my head, and my hands</span> <i>.</i> <span>Every project gets my heart, 
+                                    my head, and my hands</span> <i>.</i> <span>Every project gets my heart, my head, and my hands</span> <i>.</i> <span>Every project gets my heart, my head, and my hands</span> <i>.</i> <span>Every project gets my heart, my head, and my hands</span> <i>.</i> 
                                 </h1>
                             </div>
                         </div>

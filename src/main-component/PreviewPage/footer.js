@@ -11,7 +11,7 @@ const Footer = () => {
                                 <div className="wpo-footer-text">
                                     <h2>Let’s Build Your Website 
                                         With Tonu. </h2>
-                                        <a className="theme-btn-s2" target="_blank" href="https://themeforest.net/item/tonu-creative-portfolio-react-template/43530763">Purchase Now </a>
+                                        <a className="theme-btn-s2" target="_blank" href="/">Purchase Now </a>
                                 </div>
                             </div>
                         </div>
